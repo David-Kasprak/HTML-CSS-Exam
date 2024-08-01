@@ -1,0 +1,710 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wrap {
+    width: 1440px;
+    height: 4976px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: #02061A;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+/*------------------------------ HEADER --------------------------------*/
+header {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 188px;
+}
+header svg {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    margin-left: 192px;
+    margin-top: 92px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    z-index: 1;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin-right: 187px;
+    margin-top: 102px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    z-index: 1;
+}
+nav ul li a {
+    color: #FFF;
+}
+/*------------------------------ MAIN SECTION --------------------------------*/
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 170px;
+}
+.main-flex {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.right-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.left-text-main {
+    width: 550px;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.left-text-main p {
+    width: 100%;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-wrap: wrap;
+}
+.left-buttons-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+.main-button-1 {
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.main-button-2 {
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: #02061A;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.right-main img {
+    width: 467px;
+    height: 461px;
+}
+/*------------------------------ FEATURED SECTION --------------------------------*/
+.featured-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 198px;
+}
+.featured-flex {
+    width: 1065px;
+    height: 164px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.featured-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.featured-container {
+    width: 1065px;
+    height: 125px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 138px;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    padding: 0 70px 0 70px;
+    margin-top: 8px;
+}
+.featured-heading h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.featured-container p {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+/*<!------------------------ SPECIAL OFFER SECTION ------------------------------>*/
+.offer-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.offer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.left-offer {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-offer {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.offer-p-1{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.right-offer p:nth-child(3) {
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.right-offer p:nth-child(4) {
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.right-offer p:nth-child(5) {
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.right-offer p:nth-child(6) {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.right-offer p:nth-child(7) {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+.right-offer p span svg {
+    position: relative;
+    top: 15px;
+}
+.right-offer p span:nth-child(1) {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+.buttons-offer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 34px;
+}
+.buttons-offer button {
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-offer button:nth-child(1) {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    z-index: 1;
+}
+.stats-offer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+}
+.stats-offer div p {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.stats-offer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+/*<!------------------------ VIEW NFTS SECTION ------------------------------>*/
+.view-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 234px;
+}
+.view-flex {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-view {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.right-view {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.left-view p {
+    width: 465px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.left-view button {
+    width: 450px;
+    height: 96px;
+    margin-top: 58px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.right-view div {
+    width: 374px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+}
+.right-view img {
+    width: 374px;
+    height: 358px;
+}
+.monkey-1 {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    transform: rotate(-25deg);
+    z-index: 0;
+}
+.monkey-2 {
+    z-index: 1;
+}
+.right-view p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.right-view p:nth-of-type(1) {
+    color: #56CAB1;
+    /*!*-webkit-text-stroke-width: 2;           *! - !!! ruins the text design if applied, thus disabled on purpose !!! */
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.right-view p:nth-of-type(2) {
+color: #FFF;
+font-family: Outfit, sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.right-view p span:nth-of-type(1) {
+    color: #23263C;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 10px 0 10px;
+}
+.right-view p span:nth-of-type(2) {
+    margin-left: 10px;
+    padding: 0 30px 0 30px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    color: #52A7C6;
+    /*-webkit-text-stroke-width: 1;            *! - !!! ruins the text design if applied, thus disabled on purpose !!! *!*/
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*<!------------------------ TESTIMONIAL SECTION ------------------------------>*/
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 208px;
+}
+.testimonial-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+}
+.testimonial-section h3:nth-of-type(1) {
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.testimonial-section h3:nth-of-type(2) {
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 148px;
+}
+.testimonial-flex div {
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-flex div img {
+    position: absolute;
+    top: -75px;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    border-radius: 50%;
+}
+.testimonial-flex div p:nth-of-type(1) {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.testimonial-flex div p:nth-of-type(2) {
+    width: 302px;
+    margin-top: 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*<!------------------------ BUY NOW SECTION ------------------------------>*/
+.buy-now-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 262px;
+}
+.buy-now-flex {
+    width: 1063px;
+    height: 378px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+}
+.buy-now-flex p {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+.buy-now-flex div {
+margin-top: 24px;
+}
+.buy-now-flex button {
+    width: 344px;
+    height: 85px;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: none;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+/*<!------------------------ FOOTER ------------------------------>*/
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 126px;
+}
+.footer-flex h1 {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 1px;
+    text-transform: capitalize;
+}
+.footer-flex div ul li:nth-child(1) {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-flex div ul li {
+    margin-bottom: 22px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#input-email {
+    width: 253px;
+    height: 60px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    background: #3B7C70;
+}
+/*#input-button {*/
+/*    width: 100px;*/
+/*!*    height: 58px;*!                I couldn't apply styles properly for the button added as "input", thus replace it with regular "button" tag*/
+/*    border-radius: 50px;*/
+/*    background: #262E48;*/
+/*    border: 1px solid #3B7C70;*/
+/*}*/
+.input-flex button {
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    background: #262E48;
+    border: 1px solid #3B7C70;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+#input-email::placeholder {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.input-flex {
+    position: relative;
+}
+.form-flex>label {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
